@@ -1,0 +1,29 @@
+//  And Or operator
+//  both condition is true And operator is used 
+//  if both or one condition is true or operator is used
+
+let firstName = "Aditi";
+let age = 2;
+
+// if(firstName[0]==="A"){
+// console.log("your name starts A");
+// }
+
+// if (age > 18){
+// console.log("you are above 18");
+// }
+
+// if(firstName[0]==="A" && age>18){
+// console.log("name starts A and above 18");
+// }
+// else{
+// console.log("not starts A and not above age 18");
+// }
+
+// or operator
+if(firstName[0]==="A" || age>18){
+console.log("inside if");
+}
+else{
+console.log("inside else");
+}
