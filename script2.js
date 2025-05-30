@@ -16,3 +16,8 @@ console.log(firstName.length);
 console.log(firstName[firstName.length-2]);
 // it is used to find last index
 
+let secondName = "Radhika";
+console.log(secondName);
+console.log(secondName.length);
+console.log(secondName[secondName.length-3]);
+

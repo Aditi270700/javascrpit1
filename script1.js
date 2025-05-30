@@ -11,8 +11,8 @@ let firstName = "Aditi";
 firstName = "riya";
 console.log(firstName);
 
-// let is not declare many times but var is declare this
-//  is the diffrence between var and let
+// let is not declare many times but var is declared, 
+// this is the diffrence between var and let
 
 // declare Constants
 // what is constant, it is not change

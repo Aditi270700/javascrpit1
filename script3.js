@@ -39,4 +39,8 @@ let newstring = secondName.slice(0,4);
 //console.log(newstring);
 console.log(newstring);
 
+let thirdName = "prathna";
+let name = thirdName.slice(1,6);
+console.log(name);
+
 

@@ -25,6 +25,9 @@ console.log(firstName);
 var value1 = 2;
 console.log(value1);
 
+value1 = 3;
+console.log(value1);
+
 // you can use underscore _ or dollar symbol
 // first_name(valid)
 // firstname (invalid)

@@ -32,5 +32,13 @@ console.log(typeof myStr);
 // Age = Number(Age);
 // console.log(typeof Age);
 
+// number change in string
+let aage = 25;
+console.log(typeof (aage + ""));
+
+// string change in number
+let myString = +"aditi";
+console.log(typeof myString);
+
 
 
