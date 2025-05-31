@@ -16,3 +16,7 @@
 let age = 6;
 let drink = age>=5 ? "coffee":"milk";
 console.log(drink);
+
+// let number = 22;
+// let value = number<=20 ? "yes":"no";
+// console.log(value);

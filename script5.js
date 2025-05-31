@@ -22,3 +22,18 @@ let firstName = "Aditi";
 // let aboutMe = "my name is " + firstName + " and my age is " + age
 let aboutMe = `my name is ${firstName} and my age is ${age}`;
 console.log(aboutMe);
+
+let string3 = +"15";
+let string4 = +"15";
+
+let fullName = string3 + string4;
+console.log(fullName);
+
+
+let aage = 22;
+let secondName = "shraddha";
+
+// let fromMe = "my name is " +secondName+ " and my age is "+ aage
+// this is template string
+let fromMe = `my name is ${secondName} and my age is ${aage}`;
+console.log(fromMe);

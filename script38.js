@@ -9,4 +9,4 @@
 console.log(hello);
 var hello = "aditi";
 
-//  in case of let and const its show error
+//  In case of let and const its show error

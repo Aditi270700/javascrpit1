@@ -28,3 +28,9 @@ console.log(num5 === num6);
 console.log(num3 != num4);
 console.log(num3 !== num4);
 
+
+// let number1 = 5;
+// let number2 = "5";
+
+// console.log(number1 !== number2);
+
