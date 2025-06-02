@@ -1,6 +1,6 @@
 //  And Or operator
-//  both condition is true And operator is used 
-//  if both or one condition is true or operator is used
+//  both condition is true, "AND" operator is used
+//  if both and one condition is true, "OR" operator is used
 
 let firstName = "Aditi";
 let age = 2;
@@ -21,9 +21,18 @@ let age = 2;
 // }
 
 // or operator
-if(firstName[0]==="A" || age>18){
-console.log("inside if");
+if (firstName[0] === "A" || age > 18) {
+  console.log("inside if");
+} else {
+  console.log("inside else");
 }
-else{
-console.log("inside else");
+
+// And operator
+let secondName = "shraddha";
+let aage = 25;
+
+if (secondName[2] === "r" && aage > 18){
+  console.log("yes");
+} else {
+  console.log("noo");
 }

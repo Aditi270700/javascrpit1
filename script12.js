@@ -60,7 +60,6 @@ console.log("Invalid day");
 // the same programm we create with the help of switch statement
 
 let days = 2;
-
 switch(days){
     case 0:
         console.log("Sunday");
@@ -89,3 +88,16 @@ switch(days){
 
 
 
+let secondName = "aditi";
+
+switch(secondName){
+    case "aditi":
+        console.log("charming");
+        break;
+    case "priti":
+        console.log("beautiful");
+        break;
+    default:
+        console.log("bad");
+        break;
+}
