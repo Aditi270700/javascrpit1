@@ -26,3 +26,13 @@ console.log(fru);
 console.log("the romove fruit is",newFruit);
 
 
+let variousFruit = ["mango","papaya","coconut","cheery"]
+console.log(variousFruit);
+variousFruit.push("orange");
+console.log(variousFruit);
+
+let variFruit = ["mango","papaya","coconut","cheery"]
+console.log(variFruit);
+let latestFruit = variFruit.pop()
+console.log(variFruit)
+console.log("the remove fruit is",latestFruit)

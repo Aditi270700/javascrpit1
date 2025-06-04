@@ -27,3 +27,13 @@ console.log(typeof fruit);
 console.log(Array.isArray(fruit));
 console.log(typeof obj);
 console.log(Array.isArray(obj));
+
+
+
+let fru = ["papaya","cheery","orange","guava"]
+console.log(fru);
+fru[2] = "banana";
+console.log(fru);
+
+console.log(Array.isArray(fru));
+console.log(typeof fru);

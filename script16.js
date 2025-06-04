@@ -17,9 +17,3 @@ do{
     j++;
 }while(j<=10);
 
-let m=1;
-let total = 0;
-do{
-    total=total+m;
-    console.log(total);
-}while(m<=20);
