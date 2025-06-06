@@ -22,3 +22,4 @@ const myArray2 = ["item1","item2","item3","item4"];
 const deleteValue=myArray2.splice(1,2,"aditi","riya");
 console.log(myArray2);
 console.log("delete value",deleteValue);
+
