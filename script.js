@@ -47,3 +47,12 @@ console.log(firstName);
 
 // convention
 // start with small letter and use camelCase
+
+
+// what is javascript? what is the role of javascript engine?
+
+// ANS:- javascript is a programming language that is used for converting
+// static web pages to interactive and dynamic web pages.
+
+// A javascript engine is a program present in web browsers that
+// executes javascript code.

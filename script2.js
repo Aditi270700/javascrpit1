@@ -1,3 +1,4 @@
+// 
 // string indexing
 // string is immutable datatype it is not change
 let firstName = "Aditi";

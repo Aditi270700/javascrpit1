@@ -1,3 +1,10 @@
+// what is variable?
+// what are the difference between var,let and const?
+// Answer:- varaiable is a memory to store data
+// var:-  var creates a function scope variable.
+// let:- let create a block scope variable.
+// const:- const can be assign value only once, its value cannot be changed.
+
 // let keyword
 // declare variable with let keyword
 

@@ -8,7 +8,7 @@ else{
 console.log("can not play");
 }
 
-let num=12;
+let num=13;
 if(num%2===0)
 {
 console.log("even");
@@ -33,7 +33,7 @@ console.log("odd");
 // 1
 // -1
 
-let firstName = false;
+let firstName = 0;
 if(firstName){
 console.log(firstName);
 }

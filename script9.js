@@ -13,7 +13,7 @@
 
 // ternary operator is called conditional operator
 
-let age = 6;
+let age = 10;
 let drink = age>=5 ? "coffee":"milk";
 console.log(drink);
 
