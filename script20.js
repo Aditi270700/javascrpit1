@@ -40,3 +40,5 @@ console.log("the second array is",array4);
 array3.push("value3");
 console.log("the after increment array is",array3);
 console.log("the  after increment array is",array4);
+
+

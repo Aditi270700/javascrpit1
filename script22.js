@@ -20,3 +20,11 @@ for(let i=0; i<fruits.length; i++){
 fruits2.push(fruits[i].toUpperCase());
 }
 console.log(fruits2);
+
+let fruits3 = ["ADITI","RIYA","RUHANA","DIPIKA","RADHIKA","ROHIT"];
+
+let fruits4 = [];
+for(let j=0; j<fruits3.length; j++){
+    fruits4.push(fruits3[j].toLowerCase());
+}
+console.log(fruits4);

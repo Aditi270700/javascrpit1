@@ -36,3 +36,15 @@ console.log(variFruit);
 let latestFruit = variFruit.pop()
 console.log(variFruit)
 console.log("the remove fruit is",latestFruit)
+
+
+let fruits1 = ["orange","papaya","stawberry","jamuns"]
+console.log(fruits1);
+let dif=fruits1.pop();
+console.log(fruits1);
+console.log("the remove fruits is",dif);
+
+let fruits2 = ["orange","papaya","stawberry","jamuns"]
+console.log(fruits2);
+fruits2.push("apple");
+console.log(fruits2);

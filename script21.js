@@ -22,3 +22,11 @@ array1.push("item3");
 console.log(array1==array2);
 console.log(array1);
 console.log(array2);
+
+// second time practice
+let array3 = ["value1","value2"];
+let onceArray = ["value3","value4","value5"];
+let array4 = [...array3, ...onceArray];
+array3.push("value7");
+console.log(array3);
+console.log(array4);

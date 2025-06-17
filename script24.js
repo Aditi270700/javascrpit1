@@ -9,3 +9,12 @@ i++;
 }
 console.log(fruits2);
 
+const name1 = ["priti","puja","twinkle","pragati"];
+const name2 = [];
+let j=0;
+
+while(j<name1.length){
+name2.push(name1[j].toUpperCase());
+j++;
+}
+console.log(name2);

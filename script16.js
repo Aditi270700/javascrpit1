@@ -17,3 +17,14 @@ do{
     j++;
 }while(j<=10);
 
+
+
+let k=2;
+
+do{
+    console.log(k*5);
+    k++;
+}while(k<=10);
+
+
+

@@ -47,7 +47,7 @@ console.log(total);
 // console.log(`current value of j ${j}`);
 
 let j = 1;
-mul = 1;
+mul = 0;
 
 while(j<=10){
     // console.log(j)
