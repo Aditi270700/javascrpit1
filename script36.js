@@ -23,3 +23,9 @@ const firstTarget = function(array,target){
 const myArray = [1,2,3,4,5,6];
 const ans = firstTarget(myArray,5);
 console.log(ans);
+
+const multiply = function(num1,num2){
+ return num1*num2
+}
+const value = multiply(5,6)
+console.log(value);

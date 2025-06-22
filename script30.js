@@ -27,3 +27,16 @@ console.log(obj);
 
 
 
+const key3 = "name";
+const key4 = "age";
+const value3 = "Aditi";
+const value4 = 24;
+
+const obj1 = {}
+
+obj1[key3] = value3;
+obj1[key4] = value4;
+console.log(obj1);
+
+
+

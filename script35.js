@@ -51,7 +51,7 @@ console.log(returnedValue);
 function isEven(number){
     return number % 2===0;
 }
-console.log(isEven(2));
+console.log(isEven(9));
 
 
 // function
@@ -78,5 +78,19 @@ function findTarget(array,target){
     
 }
 const myArray = [12,32,52,45,21,32];
-const ans = findTarget(myArray, 52);
+const ans = findTarget(myArray, 1);
 console.log(ans);
+
+
+function secondTarget(array2,num){
+ for(let j=0; j<array2.length; j++){
+    if(array2[j]===num){
+        return j;
+    }
+ }
+ return "no";
+}
+
+const myArray1 = [87,65,41,23,1,2,5]
+const array3 = secondTarget(myArray1,65);
+console.log(array3);

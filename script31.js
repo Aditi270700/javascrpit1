@@ -25,7 +25,8 @@ key4: "value4",
 // const newObject = {...obj1, ...obj2};
 
 // if we change the order first key is override obj2
-const newObject = {...obj2, ...obj1, key69:"value69"};
+// const newObject = {...obj1, ...obj2, key69:"value69",key5:"value50"};
+const newObject = {...obj2, ...obj1, key69:"value69",key5:"value50"};
 console.log(newObject);
 console.log(obj1);
 
@@ -35,3 +36,4 @@ console.log(realObject);
 
 const allItem = {...["item1","item2"]};
 console.log(allItem);
+

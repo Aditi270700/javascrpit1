@@ -4,7 +4,7 @@ const myVar = "value11";
 function myApp(){
     
    function myFunc(){
-    // const myVar = "value58";
+   //  const myVar = "value58";
     const myFunc2 = ()=>{
     console.log("inside myfunc",myVar);
     }

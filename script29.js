@@ -23,3 +23,17 @@ console.log(val);
 for (let key of Object.keys(person)){
 console.log(person[key])
 }
+
+
+const human =  {
+    name:"shraddha",
+    age:14,
+    music:["tere naam","saani","tu tu hai wahi","gadi leke"]
+}
+console.log(typeof(Object.keys(human)));
+const myArray = Array.isArray(Object.keys(human));
+console.log(myArray);
+
+for(let keys of Object.keys(human)){
+    console.log(human[keys]);
+}

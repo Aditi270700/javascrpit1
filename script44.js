@@ -22,3 +22,17 @@ function printDetails({firstName,gender,age}){
     console.log(age);
 }
 printDetails(person);
+
+
+const person1 = {
+    secondName :"Aditi",
+    age:50,
+    email:"aditi@gmail.com"
+}
+
+function detail({secondName,age,email}){
+console.log(secondName);
+console.log(age);
+console.log(email);
+}
+detail(person1);

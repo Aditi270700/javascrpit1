@@ -1,19 +1,8 @@
-// what happens to function declaration
+// change the styles of elements
 
-// javascript is a lexical scope language
-// what is hoisting
-// before code execution memory store code
-console.log(this);
-console.log(window);
-console.log(myFunction);
-console.log(fullName);
-
-function myFunction(){
-    console.log("This is my function");
-}
-myFunction();
-
-var firstName = "Aditi";
-var lastName = "saudagar"
-var fullName = firstName + " " + lastName;
-console.log(fullName);
+const mainHeading = document.querySelector("div.headline h2")
+// console.log(mainHeading.style);
+mainHeading.style.color = "blue";
+mainHeading.style.backgroundColor = "white";
+mainHeading.style.border = "solid 2px";
+console.log(mainHeading);

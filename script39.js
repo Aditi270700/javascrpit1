@@ -16,3 +16,16 @@ const app = ()=>{
     console.log(mul(2,8));
 }
 app();
+
+
+const app1 = ()=>{
+ const func = ()=>{
+    console.log("abs");
+ }
+ const add = (num3,num4)=>{
+    return num3+num4;
+ }
+ func();
+ console.log(add(9,6));
+}
+app1();

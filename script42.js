@@ -12,3 +12,10 @@ function addTwo(a,b=0){
 }
 const ans = addTwo(4,32);
 console.log(ans);
+
+function multiply(c,d=0){
+   return c*d
+}
+
+const multiplTwoValue = multiply(4);
+console.log(multiplTwoValue);

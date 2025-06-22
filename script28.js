@@ -8,6 +8,7 @@
 
 // how to create objects
 // const person = {name:"aditi",age:25};
+const keys="email";
 const person = {
 name:"aditi",
 age:25,
@@ -17,20 +18,25 @@ hobbies:["dancing","singing","listening music"]
 console.log(typeof person);
 // how to add key value pair to objects
 person.gender = "female";
+person.favorite_singer = "kumar sanu";
 console.log(person);
-
+console.log(person["hobbies"]);
+person[keys]="aditi@gmail.com";
+console.log(person);
 
 
 // how to access data from objects
 // this is dot notation
 console.log(person.name);
 console.log(person.age);
+console.log(person.favorite_singer);
 
 
 // difference between dot and bracket notation
 // this is bracket notation
 console.log(person["name"]);
 console.log(person["age"]);
+console.log(person["gender"]);
 
 
 // difference between dot and bracket notation

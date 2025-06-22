@@ -23,3 +23,14 @@ function addAll(...numbers){
 const ans=addAll(2,3,4,5,5,7);
 console.log(ans);
 
+
+function multiply(...num){
+  let total1 = 1;
+  for(let num1 of num){
+     total1=num1*total1
+  }
+return total1;
+}
+const mul1 = multiply(1,2,3);
+console.log(mul1);
+

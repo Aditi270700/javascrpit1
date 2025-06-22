@@ -26,3 +26,10 @@ let [myvar1,myvar2,...myNewArray] = myArray;
 console.log("value of myvar1",myvar1);
 console.log("value of myvar2",myvar2);
 console.log(myNewArray);
+
+
+const fruit = ["apple","banana","orange","papaya","cherry"];
+ let [fruit1,fruit2,...myNewFruit] = fruit;
+ console.log("the fruit1 is",fruit1)
+ console.log("the fruit2 is",fruit2)
+ console.log(myNewFruit);

@@ -66,13 +66,54 @@ a{
     min-height: 5vh;
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 .form-todo input{
     min-height: 100%;
 }
 .form-todo input[type="text"]{
     width:78%;
+    padding: 0.8rem;
+    font-size: 1rem;
 }
 .form-todo input[type="submit"]{
     width:20%;
+    background-color: black;
+    color: azure;
+    font-weight: bold;
 }
+.section-signup{
+    margin: 5rem auto;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    padding: 1rem;
+}
+.signup-form {
+    max-width: 800px;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+}
+.signup-form label{
+  display: block;
+  
+}
+.signup-form textarea{
+    width: 100%;
+  }
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .form-group{
+    margin-top: 1rem;
+  }
+  .signup-btn{
+    background-color: rgb(44,55,63);
+    color: beige;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+
+  }
