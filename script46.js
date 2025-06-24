@@ -6,5 +6,15 @@ function myFunc(){
     }
     return hello;
 }
-const ans = myFunc();
+const ans= myFunc();
 console.log(ans());
+
+
+function myfunc1(){
+    function hello(){
+        return "Aditi";
+    }
+    return hello;
+}
+const ans1 = myfunc1();
+console.log(ans1());

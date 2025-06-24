@@ -31,3 +31,22 @@ console.log(totalAmount);
 //   0              {}             10000
 //   10000          20000          30000
 //   30000          30000          60000
+
+
+const num = [1,2,45,8,9,100]
+
+const ans = num.reduce((num1,num2)=>{
+    return num1+num2;
+})
+console.log(ans);
+
+const person = [
+    {secondName:"aditi",gender:"female",rate:500},
+    {secondName:"pragti",gender:"female",rate:600},
+    {secondName:"radhika",gender:"female",rate:1000},
+]
+
+const sumAmount = person.reduce((total,currentRate)=>{
+return total+currentRate.rate;
+},0)
+console.log(sumAmount);

@@ -44,3 +44,28 @@ for(let use of users){
 }
 
 
+const num = [10,20,30,40];
+num.forEach(function(num1,inde){
+    console.log(`Nummber is ${num1*4} and index is ${inde}`)
+});
+
+const person = [
+    {secondName:"radhika",gender:"female"},
+    {secondName:"aditi",gender:"female"},
+    {secondName:"bipin",gender:"male"},
+    {secondName:"pragti",gender:"female"},
+]
+
+person.forEach(function(human){
+console.log(human.secondName,human.gender);
+})
+
+for(let per of person){
+    console.log(per.secondName);
+}
+
+
+
+
+
+

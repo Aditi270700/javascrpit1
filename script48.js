@@ -32,3 +32,23 @@ let second=users.map((user)=>{
 console.log(second);
 
 
+const num = [1,2,3,4,5];
+
+const ans = num.map(function(number1){
+    return number1*number1;
+})
+console.log(ans);
+
+
+const person = [
+    {secondName:"aditi",gender:"female"},
+    {secondName:"pragti",gender:"female"}
+]
+const ans1 = person.map((human)=>{
+ return human.secondName
+})
+console.log(ans1);
+
+
+
+
