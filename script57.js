@@ -22,3 +22,19 @@ for (let item of items){
 const secondName = "harshit";
 console.log(secondName.length);
 console.log(secondName[3]);
+
+
+
+const string = "shraddha";
+for(let name of string){
+    console.log(name);
+}
+
+const myArray1 = ["value1","value2","value3"]
+for(let value of myArray1){
+    console.log(value);
+}
+
+const name = "bipin"
+console.log(name.length);
+console.log(name[2]);

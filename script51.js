@@ -31,3 +31,15 @@ const products = userCart.slice(0).sort((a,b)=>{
     return a.price-b.price;
 })
 console.log(products);
+
+
+const order = [
+    {erpId: 101,firstName: "aditi",productPrice:50000},
+    {erpId: 102,firstName: "muskan",productPrice:40000},
+    {erpId: 103,firstName: "shivani",productPrice:30000},
+    {erpId: 104,firstName: "sona",productPrice:20000},
+]
+const ans = order.slice(0).sort((a,b)=>{
+    return a.productPrice-b.productPrice;
+})
+console.log(ans);

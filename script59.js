@@ -53,4 +53,28 @@ userInfo.set(person2,{age:8,gender:"male"});
 // console.log(userInfo);
 console.log(person2.id);
 console.log(userInfo.get(person2).gender);
+console.log(person2);
 
+
+const person3 = new Map();
+
+person3.set("secondName","aditi");
+person3.set("age",25);
+person3.set("gender","female");
+
+for (let [key,value] of person3){
+    console.log(key,value);
+}
+const per = new Map([["secondName","aditi"],["age",25]]);
+console.log(per);
+console.log(person3);
+
+
+const person4 = {
+    id:2,
+    secondName:"Bipin"
+}
+const user = new Map();
+user.set(person4,{email:"aditi@gmail.com",gender:"male"})
+console.log(person4.secondName);
+console.log(user.get(person4).email);

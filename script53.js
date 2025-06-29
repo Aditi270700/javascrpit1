@@ -15,5 +15,12 @@ const userCart = [
     {productId: 3,productName: "tv", price:12000},
 ]
 
-const answer=userCart.every((cartItem)=>cartItem.price < 30000);
+const answer=userCart.every((cartItem)=>cartItem.price >30000);
 console.log(answer);
+
+// All odd then it is return true if single even number in array then it returns false
+const number1 = [89,87,85,87,81,41];
+const odd = number1.every((isOdd)=>{
+    return isOdd%2!==0
+})
+console.log(odd);

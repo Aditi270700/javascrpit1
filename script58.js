@@ -11,7 +11,7 @@ const number = new Set(); //it is the way to make set
 console.log(number);
 // this is diffrent of javascript perspective it is return array
 number.add(["item1","item2"]);
-number.add(["item1","item2"]);
+// number.add(["item1","item2"]);
 number.add(1);
 number.add(2);
 number.add(3);
@@ -41,3 +41,14 @@ for(let element of uniqueElement){
 console.log(length);
 console.log(uniqueElement);
 console.log(myArray);
+
+
+const myArray1 = [2,2,7,7,8,8,9,5,6,4]
+const uni = new Set(myArray1);
+length = 0
+for(let elements of myArray1){
+    length++;
+}
+console.log(length);
+console.log(uni);
+console.log(myArray1);

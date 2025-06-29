@@ -14,5 +14,10 @@ const userCart = [
     {productId: 3,productName: "tv", price:30000},
     {productId: 3,productName: "macbook", price:250000},
 ]
- const answer=userCart.some((user)=>user.price>100000);
+ const answer=userCart.some((user)=>user.productName = "mobile");
  console.log(answer);
+
+ const number1 = [2,4,6,8,10];
+
+ const num = number1.some((isOdd)=>isOdd%2!==0)
+ console.log(num);
