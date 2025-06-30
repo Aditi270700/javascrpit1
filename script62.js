@@ -1,6 +1,6 @@
 // methods
 // create your owm method
-// function inside object is clled method
+// function inside object is called method
 
 // const person = {
 //     firstName: "aditi",
@@ -37,3 +37,29 @@ const person3 = {
 person1.about();
 person2.about();
 person3.about();
+
+
+function userPerson(){
+    console.log(`my name is ${this.secondName} and age is ${this.age}`);
+}
+
+const value1 = {
+    secondName:"misti",
+    age:22,
+    ans : userPerson
+}
+
+ const value2 = {
+    secondName:"pinki",
+    age:23,
+    ans : userPerson
+}
+
+const value3 = {
+    secondName:"dipti",
+    age:24,
+    ans : userPerson
+}
+value1.ans();
+value2.ans();
+value3.ans();

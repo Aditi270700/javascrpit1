@@ -27,3 +27,26 @@ about.apply(user1,["guitar","bach"]);
 
 const func = about.bind(user2,"tere liye","sunidhi chauhan");
 func();
+
+
+
+// call apply and bind method
+
+
+function myAditi(hobby,dance){
+ console.log(` my name is ${this.secondName} and gender is ${this.gender} or ${hobby} and ${dance}`)
+}
+
+const value = {
+    secondName:"radhika",
+    gender:"female",
+}
+const value1 = {
+    secondName:"ritik",
+    gender:"male",
+}
+
+myAditi.call(value,"siging","mere dholna");
+myAditi.apply(value1,["painting","kissik"]);
+const func1 = myAditi.bind(value,"drawing","hiriye");
+func1();
