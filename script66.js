@@ -9,3 +9,13 @@ const user1 = {
     }
 }
 user1.about();
+
+const user2 = {
+    secondName: "shraddha",
+    age:22,
+    func(){
+console.log(this);
+console.log(this.secondName)
+    }
+}
+user2.func();
