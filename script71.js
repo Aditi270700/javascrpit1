@@ -36,3 +36,26 @@ console.log(user2.about());
 console.log(user3.about());
 console.log(user1.sing());
 console.log(user1);
+
+
+function world(name,lname,email){
+ const wor = Object.create(world.prototype)
+ wor.name = name
+ wor.lname=lname
+ wor.email=email
+  return wor;
+}
+
+world.prototype.detail = function(){
+ return `this is my full name ${this.name} ${this.lname}`
+}
+world.prototype.validEmail = function(){
+    return this.email==='aditi@gmail.com';
+}
+const wor1 = world('aditi','saudagar','aditi@gmail.com');
+const wor2= world('ritika','singh','ritika@gmail.com');
+const wor3 = world('priti','sharma','priti@gmail.com');
+console.log(wor1.detail());
+console.log(wor2.detail());
+console.log(wor1.validEmail());
+

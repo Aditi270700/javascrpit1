@@ -34,4 +34,31 @@ person1.lastName="tondon";
 console.log(person1.firstName);
 console.log(person1.lastName);
 person1.fullName = "Aditi Saudagar";
-console.log(person1)
+console.log(person1);
+console.log(person1.fullName);
+
+
+class newConstructor{
+    constructor(name,lname,email){
+  this.name=name
+  this.lname=lname
+  this.email=email
+}
+get totalName(){
+    return `${this.lname} ${this.email}`
+}
+setName(lname,email){
+this.lname=lname
+this.email=email
+}
+set totalName(total){
+    const[lname,email] = total.split(" ");
+    this.lname=lname
+    this.email=email
+}
+
+}
+
+const user1 = new newConstructor('sakshi','khanna','sakshi@gmail.com')
+console.log(user1.lname);
+console.log(user1.totalName);

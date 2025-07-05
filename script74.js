@@ -18,9 +18,9 @@ const user1 =new CreateUsers('aditi','saudagar',25,'aditi@gmail.com','house numb
 const user2 =new CreateUsers('riya','shewane',17,'riya@gmail.com','house number 3');
 const user3 =new CreateUsers('dipika','kalbande',20,'dipika@gmail.com','house number 4');
 
-for(let key in user1){
+for(let keys in user1){
     // console.log(key);
-   if (user1.hasOwnProperty(key)){
-    console.log(key);
+   if (user1.hasOwnProperty(keys)){
+    console.log(keys);
    }
 }

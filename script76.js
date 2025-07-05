@@ -2,7 +2,7 @@
 
 class CreateUsers{
 constructor(firstName,lastName,age,email,address){
-    console.log("constructor called");
+    // console.log("constructor called");
     this.firstName=firstName;
     this.lastName=lastName;
     this.email=email;
@@ -31,3 +31,27 @@ const user3 =new CreateUsers('dipika','kalbande',20,'dipika@gmail.com','house nu
 console.log(user1.about());
 console.log(user1.func());
 console.log(Object.getPrototypeOf(user1));
+
+
+class newConstructor{
+    
+constructor(name,lname,gender,address){
+this.name=name;
+this.lname=lname;
+this.gender=gender;
+this.address=address;
+}
+ifUser (){
+    return `my name is ${this.name}${this.lname}`
+    }
+ifUser1 (){
+    return this.gender="female";
+}
+}
+const user4 = new newConstructor('rinky','singh','female','bhawana nagar');
+const user5 = new newConstructor('pinky','soni','female','Mp nagar');
+const user6 = new newConstructor('chinky','sharma','female','ashoka garden');
+
+console.log(user4.ifUser());
+console.log(user5.ifUser());
+console.log(user5.ifUser1());

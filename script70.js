@@ -23,13 +23,20 @@ console.log(hello.prototype.sing());
 console.log(hello.prototype);
 
 
-function world(){
+function world(name,lname){
     console.log("hello !!!!");
+    const wor = Object.create(world.prototype);
+    wor.name=name
+    wor.lname=lname
+    
+    
+    return wor;
 }
-world.prototype.name = "aditi";
-world.prototype.lname = "saudagar";
+
 world.prototype.about = function(){
     return `this is my name is ${this.name}`
 }
-console.log(world.prototype);
-console.log(world.prototype.about());
+const wor1 = world("aditi","saudaga");
+console.log(wor1.about());
+// console.log(world.prototype);
+// console.log(world.prototype.about());
